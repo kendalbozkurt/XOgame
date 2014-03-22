@@ -21,7 +21,7 @@ o_durumu = []
 
 sira = 1
 while True:
-    if sıra % 2 == 0:
+    if sira % 2 == 0:
         isaret = "X".center(3)
     else:
         isaret = "O".center(3)
