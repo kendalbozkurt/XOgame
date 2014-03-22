@@ -19,7 +19,7 @@ kazanma_olcutleri = [[[0, 0], [1, 0], [2, 0]],
 x_durumu = [] #x ve o nun bulunduğu konumları tutan listeler
 o_durumu = []
 
-sıra = 1
+sira = 1
 while True:
     if sıra % 2 == 0:
         isaret = "X".center(3)
@@ -48,7 +48,7 @@ while True:
             x_durumu += [[x, y]] #Sıra X te ise x durumuna ata koordinatları
         elif isaret == "O".center(3): #O da ise o durumuna ata koordinatları
             o_durumu += [[x, y]]
-        sıra += 1 #sırayı arttırıyoruz çünkü bir X giricek bir O 
+        sira += 1 #sırayı arttırıyoruz çünkü bir X giricek bir O 
     else:
         print("\nORASI DOLU! TEKRAR DENEYİN\n") #tahtadaki konum dolu ise
 
